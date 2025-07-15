@@ -5,12 +5,12 @@ source "https://rubygems.org"
 #
 #     bundle exec jekyll serve
 
-gem "jekyll", "~> 4.1.1"
+gem "jekyll", "~> 4.2.0"
 
 group :jekyll_plugins do
   gem "jekyll-sitemap"
-  gem "jekyll-seo-tag"
+  gem "jekyll-seo-tag", ">= 2.8.0"
   gem "jekyll-compose"
 end
 
-gem "webrick", "~> 1.7"
+gem "webrick", "~> 1.8", ">= 1.8.2"
